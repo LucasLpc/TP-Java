@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  height: 100vh;
+  background: #424242;
+  color: #eeeeee;
+}

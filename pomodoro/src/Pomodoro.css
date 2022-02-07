@@ -1,0 +1,135 @@
+.timer-font {
+  font-family: "Orbitron", sans-serif;
+}
+
+.button {
+  width: 100px;
+  text-transform: uppercase;
+  border: 2px solid black;
+  background: #eee;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .button {
+    width: 150px;
+  }
+}
+
+.button:disabled {
+  background: #757575;
+  color: #000000;
+}
+
+.button.round {
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 999999px;
+}
+
+.pomodoro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+
+.pomodoro__wrapper {
+  width: 70vw;
+  max-width: 100%;
+  background: #212121;
+  padding: 10px 25px 25px 25px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .pomodoro__wrapper {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pomodoro__wrapper {
+    padding: 10px 40px 40px 40px;
+  }
+}
+
+.pomodoro__title {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.pomodoro__timer {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .pomodoro__timer {
+    font-size: 5rem;
+  }
+}
+
+.pomodoro__main-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 0 30px 0;
+}
+
+.pomodoro__options {
+  display: flex;
+  justify-content: space-between;
+  background: #010101;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .pomodoro__options {
+    justify-content: space-evenly;
+  }
+}
+
+.pomodoro__option {
+  width: 45%;
+}
+
+@media screen and (min-width: 1024px) {
+  .pomodoro__option {
+    width: 35%;
+  }
+}
+
+.pomodoro__option__title {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.pomodoro__option__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pomodoro__restart {
+  margin: 25px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
